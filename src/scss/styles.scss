@@ -1,28 +1,21 @@
+// Import variables
+@import "./variables.scss";
+
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
 
-// Resets for body and html height for sticky footer
-body,
-html {
-    height: 100%;
-}
+// Global CSS
+@import "./global.scss";
 
-// Custom SCSS for feature component with Bootstrap icon
-.feature {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
-    width: 3rem;
-    font-size: 1.5rem;
-}
+// Components
+@import "./components/buttons.scss";
+@import "./components/navbar.scss";
+@import "./components/bootstrap-overrides";
 
-// Background image for featured blog post
-.bg-featured-blog {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 15rem;
-}
+// Sections
+@import "./sections/about.scss";
+@import "./sections/cta.scss";
+@import "./sections/footer.scss";
+@import "./sections/intro.scss";
+@import "./sections/products.scss";
+@import "./sections/store.scss";
