@@ -51,21 +51,22 @@ html(lang='en')
                             h2.section-heading.mb-0
                                 span.section-heading-upper From Around the World
                                 span.section-heading-lower Bulk Speciality Blends
-                    .product-item-img.mx-auto.d-flex.rounded.img-fluid.mb-3.mb-lg-0
-                        #carouselExampleControls.carousel.slide(data-bs-ride='carousel')
-                            .carousel-inner
-                                .carousel-item.active
-                                    img.d-block.w-100(src='assets/img/flowers/0_268981_136505763095980_3005801_n.jpg' alt='...')
-                                .carousel-item
-                                    img.d-block.w-100(src='assets/img/flowers/1_268977_136505386429351_5989508_n.jpg' alt='...')
-                                .carousel-item
-                                    img.d-block.w-100(src='assets/img/flowers/2_269881_136506226429267_1259136_n.jpg' alt='...')
-                            button.carousel-control-prev(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='prev')
-                                span.carousel-control-prev-icon(aria-hidden='true')
-                                span.visually-hidden Previous
-                            button.carousel-control-next(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='next')
-                                span.carousel-control-next-icon(aria-hidden='true')
-                                span.visually-hidden Next
+                    .mx-auto.rounded.mb-3.mb-lg-0(style='max-width: 900px')
+                        .overflow-hidden
+                            #carouselExampleControls.carousel.slide(data-bs-ride='carousel')
+                                .carousel-inner
+                                    .carousel-item.active
+                                        img.image-square.d-block.w-100(src='assets/img/flowers/0_268981_136505763095980_3005801_n.jpg' alt='...')
+                                    .carousel-item
+                                        img.image-square.d-block.w-100(src='assets/img/flowers/1_268977_136505386429351_5989508_n.jpg' alt='...')
+                                    .carousel-item
+                                        img.image-square.d-block.w-100(src='assets/img/flowers/2_269881_136506226429267_1259136_n.jpg' alt='...')
+                                button.carousel-control-prev(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='prev')
+                                    span.carousel-control-prev-icon(aria-hidden='true')
+                                    span.visually-hidden Previous
+                                button.carousel-control-next(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='next')
+                                    span.carousel-control-next-icon(aria-hidden='true')
+                                    span.visually-hidden Next
                     .product-item-description.d-flex.me-auto
                         .bg-faded.p-5.rounded
                             p.mb-0

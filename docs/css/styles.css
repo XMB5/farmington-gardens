@@ -11030,6 +11030,13 @@ p {
   }
 }
 
+.image-square {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 900px;
+  height: 900px;
+}
+
 .list-hours {
   font-size: 0.9rem;
 }
